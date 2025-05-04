@@ -94,7 +94,34 @@
   #trending-section {
     display: none;
   }
-  
+  .item-avatar {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .image-side {
+    display: none;
+  }
+
+  .title-avatar {
+    font-size: 36px;
+  }
+
+  .des-avatar {
+    font-size: 14px;
+  }
+
+  .buttons-avatar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons-avatar button {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+
   
 }
 @media screen and (max-width: 678px) {
