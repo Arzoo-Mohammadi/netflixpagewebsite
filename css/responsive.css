@@ -95,9 +95,7 @@
     display: none;
   }
   
-  .Avatar-Section {
-    background-attachment: scroll; /* Disable fixed background for mobile */
-  }
+  
 }
 @media screen and (max-width: 678px) {
   .sign-in {
