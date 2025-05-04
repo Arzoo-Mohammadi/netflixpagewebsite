@@ -82,9 +82,8 @@
     display: none;
   }
   .Avatar-Section{
-  background: url(image/slider/slider-4.jpg); 
-    background-position: center;
-   background-repeat: no-repeat;
+background: url('https://arzoo-mohammadi.github.io/netflixpagewebsite/image/popular/avatar.jpg') center center no-repeat;
+
   
    height: 100%;
    width: 100%;
