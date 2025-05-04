@@ -81,13 +81,11 @@
   #text-overlay {
     display: none;
   }
-  .Avatar-Section{
-background: url('https://arzoo-mohammadi.github.io/netflixpagewebsite/image/popular/avatar.jpg') ;
-
-  
-   height: 100%;
-   width: 100%;
-
+  .Avatar-Section {
+    background: url('image/popular/avatar.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
   }
   .carousel-control-prev {
     margin-top: 200px;
