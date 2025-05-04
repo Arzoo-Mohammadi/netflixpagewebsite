@@ -81,7 +81,7 @@
   #text-overlay {
     display: none;
   }
-  .Avatar-Section {
+  #avatar-image {
     background: url('image/top-10/luucy.jpg') no-repeat center center;
     background-size: cover;
     background-position: center center;
