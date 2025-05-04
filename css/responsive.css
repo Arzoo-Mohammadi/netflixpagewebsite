@@ -12,7 +12,7 @@
   .card {
     margin-left: 0px;
   }
-  .image-side {
+  .image-side img{
     display: none;
   }
   .content-avatar {
