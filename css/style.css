@@ -804,47 +804,63 @@ li.slide-item {
 
 /* <!--------------------------------------------Avatar Section-------------------------------------------------> */
 .Avatar-Section {
+  background: url('image/popular/avatar.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .item-avatar {
   justify-content: center;
-  height: 100vh;
   align-items: center;
+  height: 100%;
   gap: 20px;
 }
+
 .title-avatar {
   font-family: var(--font-family);
   font-size: 55px;
   font-weight: bold;
 }
+
+.des-avatar {
+  color: white;
+  font-family: var(--font-family);
+  line-height: 1.6;
+}
+
 .buttons-avatar {
   display: flex;
   gap: 10px;
 }
+
 .buttons-avatar button {
   width: 120px;
   height: 40px;
-  flex-direction: column;
   color: var(--text-color);
   font-family: var(--font-family);
+  border: 1.5px solid var(--sec-color);
+  background-color: transparent;
+  transition: 0.3s;
 }
+
 .button-play-avatar {
   background-color: var(--sec-color);
-  border: none;
-  transition: 0.5s;
-  border: 1.5px solid var(--sec-color);
 }
+
+.button-play-avatar:hover {
+  background-color: transparent;
+}
+
 .button-play-avatar a {
   color: var(--text-color);
   text-decoration: none;
 }
-.button-play-avatar:hover {
-  background-color: transparent;
-}
-.More {
-  border: 1.5px solid var(--sec-color);
-  background-color: transparent;
-  transition: 0.5s;
-}
+
 .More:hover {
   color: var(--sec-color);
 }
