@@ -94,6 +94,39 @@
   #trending-section {
     display: none;
   }
+   .item-avatar {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .content-avatar {
+    width: 100%;
+  }
+
+  .title-avatar {
+    font-size: 36px;
+  }
+
+  .image-side img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .des-avatar {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .buttons-avatar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons-avatar button {
+    width: 150px;
+  }
 }
 @media screen and (max-width: 678px) {
   .sign-in {
