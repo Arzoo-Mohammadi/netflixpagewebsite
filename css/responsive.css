@@ -124,11 +124,6 @@
     text-align:center;
   }
 
-  .Avatar-Section {
-    background-attachment: scroll;
-    background-position: center;
-    height:100%;
-  }
 }
 @media screen and (max-width: 678px) {
   .sign-in {
