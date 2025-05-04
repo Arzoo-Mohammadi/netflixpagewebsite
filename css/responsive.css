@@ -82,10 +82,12 @@
     display: none;
   }
   #avatar-image {
-    background: url('image/top-10/luucy.jpg') no-repeat center center;
+    background: url('./image/top-10/luucy.jpg') no-repeat center center;
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
+    height:100vh;
+    width:100%;
   }
   .carousel-control-prev {
     margin-top: 200px;
