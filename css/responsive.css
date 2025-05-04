@@ -94,27 +94,22 @@
   #trending-section {
     display: none;
   }
-   .item-avatar {
+  .item-avatar {
     flex-direction: column;
     text-align: center;
     padding: 20px;
   }
 
-  .content-avatar {
-    width: 100%;
+  .image-side {
+    display: none;
   }
 
   .title-avatar {
     font-size: 36px;
   }
 
-  .image-side img {
-    display:none;
-  }
-
   .des-avatar {
     font-size: 14px;
-    line-height: 1.5;
   }
 
   .buttons-avatar {
@@ -123,13 +118,14 @@
   }
 
   .buttons-avatar button {
-    width: 100px;
-  }
- 
-  .Avatar-Section {
-    background-attachment: scroll;
+    width: 150px;
+    margin-bottom: 10px;
   }
 
+  .Avatar-Section {
+    background-attachment: scroll;
+    background-position: center;
+  }
 }
 @media screen and (max-width: 678px) {
   .sign-in {
