@@ -127,6 +127,11 @@
   .buttons-avatar button {
     width: 150px;
   }
+ 
+  .Avatar-Section {
+    background-attachment: scroll;
+  }
+
 }
 @media screen and (max-width: 678px) {
   .sign-in {
