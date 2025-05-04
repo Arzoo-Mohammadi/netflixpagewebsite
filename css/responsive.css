@@ -81,7 +81,15 @@
   #text-overlay {
     display: none;
   }
+  .Avatar-Section{
+  background: url(image/popular/avatar.jpg); 
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
 
+  }
   .carousel-control-prev {
     margin-top: 200px;
   }
@@ -119,7 +127,6 @@
 
   .buttons-avatar button {
     width: 150px;
-    
     align-items: center;
     text-align:center;
   }
