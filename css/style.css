@@ -803,15 +803,7 @@ li.slide-item {
 }
 
 /* <!--------------------------------------------Avatar Section-------------------------------------------------> */
-.Avatar-Section{
-   background: url(./image/popular/avatar.jpg);
-  background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 100%;
-   width: 100%;
-   background-attachment: fixed;
-}
+
 
 .item-avatar {
   justify-content: center;
