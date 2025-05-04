@@ -803,20 +803,9 @@ li.slide-item {
 }
 
 /* <!--------------------------------------------Avatar Section-------------------------------------------------> */
-.Avatar-Section {
-  background: url("https://ibb.co/4Rq4Y8Gy"><img src="https://i.ibb.co/m5jhX9ws/avatar.jpg" ) no-repeat center center;
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
-  width: 100%;
-  background-attachment: scroll; /* fixed is glitchy on mobile */
-
-
-}
-
 .item-avatar {
   justify-content: center;
-  height: 100vh;
+
   align-items: center;
   gap: 20px;
 }
